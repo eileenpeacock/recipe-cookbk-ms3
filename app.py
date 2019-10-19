@@ -19,13 +19,13 @@ def hello():
     return 'Hello World ...test 2'
 
 # Global settings
-# if __name__ == '__main__':      
-#     app.run(host=os.environ.get('IP'),              
-#     port=int(os.environ.get('PORT')),              
-#     debug=True)
+if __name__ == '__main__':      
+    app.run(host=os.environ.get('IP'),              
+    port=int(os.environ.get('PORT')),              
+    debug=True)
 
-# local settings
-if __name__=='__main__':
-    app.run(host = '0.0.0.0',
-    port = int('8080'),
-    debug=True) 
+# # local settings
+# if __name__=='__main__':
+#     app.run(host = '0.0.0.0',
+#     port = int('8080'),
+#     debug=True) 
